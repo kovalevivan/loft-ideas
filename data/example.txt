@@ -1,4 +1,4 @@
-name: закрытие Циферблата
+name: Закрытие Циферблата
 date: 28 фев, 2018
 location: ул. Ковалихинская, 4а
 story_kind: place_closed
@@ -6,3 +6,70 @@ reason: money_debt
 details: "
 Долг более 1 миллиона рублей на момент закрытия,
 помещение в плохом состоянии и ему требуется ремонт"
+
+object: https://vk.com/discussionfr
+name: Встреча на новом месте
+date: 28 фев, 2018
+location: ул. Ковалихинская, 4а
+new_location: Звездинка, 10Б
+story_kind: spot_change
+reason: Закрытие Циферблата
+
+object: https://vk.com/discussionfr
+name: Встреча на новом месте
+date: 8 апр, 2018
+location: Звездинка, 10Б
+new_location: Варварская, 4
+story_kind: spot_change
+reason: search_of_a_new_place
+
+object: https://vk.com/discussionfr
+name: Встреча на новом месте
+date: 6 мая, 2018
+location: Варварская, 4
+new_location: Алексеевская, 13д
+story_kind: spot_change
+reason: search_of_a_new_place
+
+object: https://vk.com/discussionfr
+name: Встреча на новом месте
+date: 3 июн, 2018
+location: Алексеевская, 13д
+new_location: Добролюбова, 10
+story_kind: spot_change
+reason: search_of_a_new_place
+
+object: https://vk.com/discussionfr
+name: Низкая посещаемость
+date: авг, 2018
+story_kind: low_attendance
+reason: ? (frequent_place_changes)
+
+object: https://vk.com/discussionfr
+name: Встреча на новом месте
+date: 22 авг, 2018
+location: Добролюбова, 10
+new_location: Горького, 226
+story_kind: spot_change
+reason: search_of_a_new_place
+
+object: https://vk.com/discussionfr
+name: Уход лидера сообщества
+date: 23 авг, 2018
+story_kind: leader_resigned
+reason: relocation, Низкая посещаемость
+
+object: https://vk.com/discussionfr
+name: Отсутствие активности
+date_from: 23 авг, 2018
+date_to: 26 ноя, 2018
+story_kind: inactive_period
+reason: Уход лидера сообщества
+
+object: https://vk.com/discussionfr
+name: Встреча на новом месте
+date: 23 ноя, 2018
+location: Горького, 226
+new_location: Ильинская ул. 80
+story_kind: spot_change
+reason: search_of_a_new_place
