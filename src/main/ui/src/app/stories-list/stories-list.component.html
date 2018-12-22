@@ -1,0 +1,17 @@
+<div class="wrapper">
+  <mat-card class="card" *ngFor="let story of storiesItems">
+    <mat-card-header>
+      <mat-card-title>{{story.name}}</mat-card-title>
+      <mat-card-subtitle>{{story.date | date:'mediumDate':'+0300':'ru'}}</mat-card-subtitle>
+    </mat-card-header>
+    <img *ngIf="story.imageUrl" mat-card-image src="{{story.imageUrl}}" alt="">
+    <mat-card-content>
+      <p>
+        {{story.details}}
+      </p>
+    </mat-card-content>
+    <mat-card-actions class="buttons">
+      <button mat-button>ПОДРОБНЕЕ</button>
+    </mat-card-actions>
+  </mat-card>
+</div>
