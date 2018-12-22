@@ -7,6 +7,8 @@ details: "
 Долг более 1 миллиона рублей на момент закрытия,
 помещение в плохом состоянии и ему требуется ремонт"
 
+---
+
 object: https://vk.com/discussionfr
 name: Встреча на новом месте
 date: 28 фев, 2018
@@ -73,3 +75,17 @@ location: Горького, 226
 new_location: Ильинская ул. 80
 story_kind: spot_change
 reason: search_of_a_new_place
+
+---
+
+object: https://vk.com/deutschersprechklub
+name: Отсутствие активности
+date_from: 28 фев, 2018
+story_kind: inactive_period
+reason: Закрытие Циферблата
+
+object: https://vk.com/deutschersprechklub
+name: Уход лидера сообщества
+date: 28 фев, 2018
+story_kind: leader_resigned
+reason: Закрытие Циферблата
