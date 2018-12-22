@@ -16,6 +16,7 @@ export class AppComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {
+
     ymaps.ready().then(() => {
       this.map = new ymaps.Map(this.mapContainer.nativeElement, {
         center: [56.326887, 44.005986],
