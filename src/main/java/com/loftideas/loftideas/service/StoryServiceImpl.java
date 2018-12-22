@@ -17,7 +17,7 @@ public class StoryServiceImpl implements StoryService {
     @Override
     public List<StoryResponseDto> getAllStories() {
         List<Story> stories = storyRepository.findAll();
-        List<StoryResponseDto> storyResponseDtos = stories.stream().map(entity -> new StoryResponseDto(entity.getId(),
+        return stories.stream().map(entity -> new StoryResponseDto(entity.getId(),
                 entity.getName(),
                 entity.getAddress(),
                 entity.getX(),
@@ -27,6 +27,5 @@ public class StoryServiceImpl implements StoryService {
                 entity.getReason(),
                 entity.getDetails(),
                 entity.getOrganization().getId())).collect(Collectors.toList());
-        return storyResponseDtos;
     }
 }
